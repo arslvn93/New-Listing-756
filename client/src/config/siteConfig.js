@@ -1,7 +1,7 @@
 /**
  * Site Configuration
  * This file contains all configurable content for the website
- * Last updated: 2025-11-20T19:56:07.697Z
+ * Last updated: 2025-11-20T19:56:28.353Z
  */
 
 // contactInfo configuration
@@ -258,17 +258,16 @@ export const homeShowcaseSections = [
   }
 ];
 
-// neighborhood configuration
+// neighborhood configuration (drives NeighborhoodOverview descriptive copy)
 export const neighborhood = {
-  name: "London",
+  name: "Chestnut Hill",
   city: "London",
-  description: "London's premier destination for culture, dining, and urban living.",
+  description: "Chestnut Hill blends leafy, tree-lined streets and grand estates with a lively retail corridor. The neighbourhood features Chestnuts Park — complete with an outdoor gym, tennis courts, basketball areas and a café — and a vibrant shopping and dining scene with over 200 specialty shops and restaurants along Germantown Avenue. Residents also benefit from access to London's world-class museums including the Natural History Museum and Science Museum and proximity to iconic attractions such as Hyde Park and Buckingham Palace.",
   highlights: [
-    "Steps to theaters, dining, and entertainment venues",
-    "Direct access to PATH underground walkway",
-    "TTC subway and streetcar connections",
-    "Walk to financial district and shopping",
-    "Vibrant urban lifestyle with excellent walk score"
+    "Tree-lined streets and grand estates perfect for leisurely strolls",
+    "Over 200 specialty shops and restaurants along Germantown Avenue",
+    "Vibrant local culture with a mix of independent boutiques and eateries",
+    "Scenic parks and green spaces ideal for outdoor relaxation and recreation"
   ]
 };
 
@@ -276,45 +275,59 @@ export const neighborhood = {
 export const neighborhoodAmenities = [
   {
     id: 1,
-    name: "Local Grocery Store",
-    distance: "0.2 miles",
+    name: "Germantown Avenue shopping & specialty shops",
+    distance: "",
     category: "shopping",
     icon: "ShoppingBag"
   },
   {
     id: 2,
-    name: "Nearby Park",
-    distance: "0.1 miles", 
+    name: "Chestnuts Park (outdoor gym, tennis courts, basketball & café)",
+    distance: "",
     category: "recreation",
     icon: "Leaf"
   },
   {
     id: 3,
-    name: "Public School",
-    distance: "0.6 miles",
-    category: "education", 
+    name: "Natural History Museum",
+    distance: "",
+    category: "education",
     icon: "School"
   },
   {
     id: 4,
-    name: "Fine Dining",
-    distance: "0.2 miles",
+    name: "Kashmir Grill",
+    distance: "",
     category: "dining",
-    icon: "Wine"
+    icon: "Coffee"
   },
   {
     id: 5,
-    name: "Casual Dining",
-    distance: "0.4 miles",
+    name: "Robowok",
+    distance: "",
     category: "dining",
     icon: "Utensils"
   },
   {
     id: 6,
-    name: "Transit Station",
-    distance: "0.4 miles",
+    name: "Commissioners at Chestnut Hill 2 SB - #2534 (Bus stop)",
+    distance: "",
     category: "transportation",
-    icon: "Train"
+    icon: "Car"
+  },
+  {
+    id: 7,
+    name: "Springbank Park",
+    distance: "",
+    category: "recreation",
+    icon: "Users"
+  },
+  {
+    id: 8,
+    name: "Germantown Avenue retail corridor (over 200 specialty shops & restaurants)",
+    distance: "",
+    category: "business",
+    icon: "Wifi"
   }
 ];
 
@@ -323,34 +336,26 @@ export const neighborhoodStats = [
   {
     id: 1,
     title: "Walk Score",
-    value: "95/100",
-    caption: "Walker's Paradise",
+    value: "35/100",
+    caption: "Car-Dependent",
     icon: "BadgeCheck",
     color: "bg-green-500"
   },
   {
     id: 2,
-    title: "Transit Score", 
-    value: "94/100",
-    caption: "Excellent Transit",
+    title: "Transit Score",
+    value: "35/100",
+    caption: "Some Transit",
     icon: "Compass",
     color: "bg-blue-500"
   },
   {
     id: 3,
-    title: "School Rating",
-    value: "8/10", 
-    caption: "Great Schools",
-    icon: "School",
+    title: "Bike Score",
+    value: "44/100",
+    caption: "Somewhat Bikeable",
+    icon: "Compass",
     color: "bg-indigo-500"
-  },
-  {
-    id: 4,
-    title: "Commute Time",
-    value: "8 min",
-    caption: "To Financial District",
-    icon: "Clock", 
-    color: "bg-amber-500"
   }
 ];
 
